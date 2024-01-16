@@ -29,12 +29,17 @@ const ProductsRows = ({
 						onClick={() => handleRowClick({ name })}
 					>
 						{!isMobile(windowWidth) && (
-							<Td className='td' w='10%'>
+							<Td textAlign='left' className='td' w='10%'>
 								{id}
 							</Td>
 						)}
 						{!isMobile(windowWidth) && (
-							<Td align='center' className='td' w='15%' isNumeric>
+							<Td
+								style={{ textAlign: "center" }}
+								className='td'
+								w='15%'
+								isNumeric
+							>
 								{quantity}
 							</Td>
 						)}

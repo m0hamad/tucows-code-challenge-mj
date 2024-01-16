@@ -13,19 +13,19 @@ const HeaderRows = () => {
 			<Tr>
 				{!isMobile(windowWidth) && (
 					<>
-						<Th align='left' className='th' w='10%'>
+						<Th textAlign='left' className='th' w='10%'>
 							ID
 						</Th>
-						<Th align='center' className='th' w='15%'>
+						<Th textAlign='center' className='th' w='15%'>
 							Quantity
 						</Th>
 					</>
 				)}
-				<Th align='center' className='th' w='55%'>
+				<Th textAlign='center' className='th' w='55%'>
 					Product Name
 				</Th>
 				{!isMobile(windowWidth) && (
-					<Th className='th bordered-cell' w='20%'>
+					<Th textAlign='right' className='th bordered-cell' w='20%'>
 						Prices
 					</Th>
 				)}
