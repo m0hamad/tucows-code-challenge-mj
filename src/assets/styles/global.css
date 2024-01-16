@@ -1,0 +1,50 @@
+:root {
+    /* Colors */
+    --primaryPurple: #605DEC;
+    --darkPurple: #344293;
+    --borderRadius-rounded: 8px;
+    --black: rgba(0, 0, 0, .87);
+    --white: rgba(255, 255, 255, .87);
+    --darkGrey: #808080;
+    --lightGrey: #F4F6F9;
+    --borderColor1: #E4E4EF;
+    --offWhite: #F9F9FB;
+
+    /* Text */
+    --largeFontSize: 16px;
+    --regularFontSize: 14px;
+    --smallFontSize: 12px;
+    --boldFont: 700;
+
+    /* Transitions */
+    --transition: .3s all;
+
+    /* Width */
+    --contentMaxWidth: 1200px;
+    --maxWindowWidth: 1920px;
+
+    /* Borders */
+    --roundedBorder: 8px;
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url('../fonts/Inter.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'nunito-sans';
+    src: url('../fonts/NunitoSans.ttf') format('truetype');
+}
+
+* {
+    font-family: 'nunito-sans';
+    padding: 0;
+    margin: 0;
+    font-weight: var(--regularFontSize);
+    font-size: 14px;
+}
+
+.layout-container {
+    padding: 2rem;
+}
